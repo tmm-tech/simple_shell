@@ -5,6 +5,13 @@
  *
  * Return: Always 0.
  */
+/**
+ * is_delim - checks if character is a delimeter
+ * @ac: the char to check
+ * @av: the delimeter string
+ * @env: the delimeter string
+ * Return: 1 if true, 0 if false
+ */
 int main(int ac, char **av, char **env)
 {
     unsigned int i;
